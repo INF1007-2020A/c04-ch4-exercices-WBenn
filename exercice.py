@@ -15,12 +15,19 @@ def remove_third_char(string: str) -> str:
     return begin + end
 
 def replace_char(string: str, old_char: str, new_char: str) -> str:
-    string.replace(old_char,new_char)
-    return print(str)
-
+   # for i in range(len(string)):
+    #        if string[i] == old_char:
+     #           string = string[:i] + string[i+ 1:]
+    #return string
+    #Erreur quelque part en haut
+    #return string.replace(old_char,new_char)
+  pass
 def get_number_of_char(string: str, char: str) -> int:
-    pass
-
+  count=0
+    for i in get_number_of_char:
+        if i == "l"
+            count= count+1
+          print(str.count)
 
 def get_number_of_words(sentence: str, word: str) -> int:
     pass
