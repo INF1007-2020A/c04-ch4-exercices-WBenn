@@ -23,14 +23,20 @@ def replace_char(string: str, old_char: str, new_char: str) -> str:
     #return string.replace(old_char,new_char)
   pass
 def get_number_of_char(string: str, char: str) -> int:
-  count=0
-    for i in get_number_of_char:
-        if i == "l"
-            count= count+1
-          print(str.count)
+    count=0
+    for current_char in string:
+        if current_char == char:
+            count +=1
+    return count
 
 def get_number_of_words(sentence: str, word: str) -> int:
-    pass
+    words= sentence.split()
+    count =0
+    for current_word in words:
+        if current_word==word:
+            count +=1
+    return count
+
 
 
 def main() -> None:
